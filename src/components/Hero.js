@@ -25,7 +25,7 @@ const Hero = ({ t }) => {
 
       <div className="hero-content">
         <div className="hero-photo-container">
-          <img src="/aziz_photo.jpg" alt={personalInfo.name} className="hero-photo" />
+          <img src={`${process.env.PUBLIC_URL}/aziz_photo.jpg`} alt={personalInfo.name} className="hero-photo" />
         </div>
 
         <div className="hero-text">
