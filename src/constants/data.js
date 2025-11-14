@@ -6,7 +6,7 @@ export const personalInfo = {
   location: 'Sousse, Tunisia',
   linkedin: 'https://www.linkedin.com/in/aziz-latrache-33146b284',
   github: 'https://github.com/latracheaziz',
-  resumePath: '/Aziz Latrache Resume.pdf'
+  resumePath: `${process.env.PUBLIC_URL}/Aziz Latrache Resume.pdf`
 };
 
 export const about = {
