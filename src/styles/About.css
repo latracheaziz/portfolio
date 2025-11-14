@@ -1,0 +1,31 @@
+.about-text {
+  font-size: 1.3rem;
+  text-align: center;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 2;
+  color: #555;
+  position: relative;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.about-text::before {
+  content: '"';
+  position: absolute;
+  top: -20px;
+  left: 20px;
+  font-size: 6rem;
+  color: #2563eb;
+  opacity: 0.2;
+  font-family: Georgia, serif;
+}
+
+@media (max-width: 768px) {
+  .about-text {
+    font-size: 1.1rem;
+    padding: 1.5rem;
+  }
+}
