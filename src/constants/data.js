@@ -70,6 +70,20 @@ export const projects = [
     technologies: ['React', 'Node.js', 'MongoDB'],
     demo: 'https://app.studyfytn.com/login'
   },
+
+  {
+    name: {
+      en: 'School Management Showcase Website – StudyfyTN',
+      fr: 'Site Vitrine de Plateforme Scolaire – StudyfyTN'
+    },
+    description: {
+      en: 'Designed and developed a professional showcase website for the Studyfy school management platform using WordPress. Integrated full presentation sections (services, features, mobile apps, contact) while ensuring a modern UI, responsive layout, and optimized navigation.',
+      fr: 'Conception et développement d’un site vitrine professionnel pour la plateforme de gestion scolaire Studyfy en utilisant WordPress. Intégration complète des sections de présentation (services, fonctionnalités, applications mobiles, contact) avec une interface moderne, responsive et optimisée.'
+    },
+    technologies: ['WordPress', 'Elementor', 'HTML', 'CSS'],
+    demo: 'https://www.studyfytn.com/'
+  },
+
   {
     name: {
       en: 'Personal Portfolio Website',
@@ -83,6 +97,7 @@ export const projects = [
     github: 'https://github.com/latracheaziz/portfolio'
   }
 ];
+
 
 export const volunteer = [
   {
